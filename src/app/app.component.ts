@@ -18,7 +18,7 @@ export class AppComponent {
     }
   }
 
-  keyPressAction($event) {
+  keyUpAction($event) {
     console.log($event);
     if( $event.key === 'Escape') {
       $event.target.value = '';
